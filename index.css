@@ -36,7 +36,7 @@
       place-self:end start;
      
   }
-@media (max-width: 768px){
+  @media (max-width: 768px){
       input{
           font-size:15px;
           grid-area:2/5/3/7;
@@ -53,3 +53,4 @@
         grid-template-rows: repeat(4,1fr);
         background: url("photo-alter-actions-clip.jpg") 0px/cover no-repeat;
       }
+  }
