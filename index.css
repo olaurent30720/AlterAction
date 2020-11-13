@@ -8,7 +8,7 @@
 }
 .clip>img{
   width:100%;
-  height:100%;
+  min-height:100hv;
   object-fit:fill;  
 }
 .input>input{
@@ -25,7 +25,7 @@
     background: url("photo-alter-actions-artist-miksha.jpg") 0px/cover no-repeat;
     display:grid;
     width:100%;
-    height:100vh;
+    min-height:100vh;
     grid-template-columns:repeat(3,1fr);
     grid-template-rows: repeat(3,1fr); 
   } 
@@ -51,7 +51,7 @@
     background: url("photo-alter-actions-clip.jpg") 0px/cover no-repeat;
     display:grid;
     width:100%;
-    height:100vh;
+    min-height:100vh;
     grid-template-columns:repeat(8,1fr);
     grid-template-rows: repeat(4,1fr);
   }
